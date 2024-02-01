@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "terra-bucket"
+  bucket = "my jenins_bucket"
 
   tags = {
-    Name        = "114-8ambucket"
+    Name        = "jenkins-114"
   }
 }
